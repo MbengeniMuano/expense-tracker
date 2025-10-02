@@ -21,8 +21,9 @@ Minimal Expense Tracker with a Spring Boot REST API and a React frontend. Includ
 - Real ON: calls the backend REST API (`VITE_API_URL` or `http://localhost:8081`).
 
 ## Deploying Frontend to GitHub Pages
-- For a static demo (no backend): enable mock mode once in the UI; build and deploy `frontend/dist`.
-- For a live API demo: host backend publicly and set `VITE_API_URL` at build time to that URL.
+- Automatic (recommended): GitHub Actions workflow `deploy-frontend.yml` builds and deploys on pushes to `main`.
+- Static demo: enable mock mode once in the UI; the built site will work without a backend.
+- Live API demo: host backend and set repository variable `VITE_API_URL` to your backend URL. The workflow will inject it during build.
 
 ## REST Endpoints (Backend)
 - `GET /api/expenses` — list all
