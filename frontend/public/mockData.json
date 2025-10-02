@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "category": "Food",
+    "description": "Groceries",
+    "amount": 250.00,
+    "date": "2025-10-01"
+  },
+  {
+    "id": 2,
+    "category": "Transport",
+    "description": "Taxi",
+    "amount": 120.50,
+    "date": "2025-10-02"
+  },
+  {
+    "id": 3,
+    "category": "Utilities",
+    "description": "Electricity",
+    "amount": 800.00,
+    "date": "2025-10-03"
+  }
+]
