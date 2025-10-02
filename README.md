@@ -31,15 +31,3 @@ Minimal Expense Tracker with a Spring Boot REST API and a React frontend. Includ
 - `PUT /api/expenses/{id}` — update
 - `DELETE /api/expenses/{id}` — delete
 
-## Push to GitHub (Manual)
-1. Initialize and commit:
-   - `git init -b main`
-   - `git add .`
-   - `git commit -m "Initial commit: backend + frontend"`
-2. Create a repo on GitHub (e.g., `expense-tracker`).
-3. Add remote and push:
-   - `git remote add origin https://github.com/<your-username>/expense-tracker.git`
-   - `git push -u origin main`
-
-## License
-This project is for demonstration purposes.
