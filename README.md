@@ -47,4 +47,5 @@ Minimal Expense Tracker with a Spring Boot REST API and a React frontend. Includ
 - `backend-ci.yml`: builds and runs backend tests on push/pull requests.
 
 ## License
-This project is for demonstration purposes.
+Licensed under the MIT License. See `LICENSE` for details.
+Copyright (c) 2025 Mbengeni Muano.
